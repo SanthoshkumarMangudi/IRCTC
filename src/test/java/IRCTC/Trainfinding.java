@@ -71,6 +71,8 @@ public class Trainfinding {
         Thread.sleep(10000);
         driver.findElement(By.xpath("//*[@id='divMain']/div/app-train-list/div[4]/div[1]/div[5]/div[1]/div[1]/app-train-avl-enq/div[1]/div[5]/div[1]/table/tr/td[1]/div/div[2]/span")).click();
          System.out.println("gddf");
+        System.out.println("gddf");
+        System.out.println("gddf");
 
     }
 }
