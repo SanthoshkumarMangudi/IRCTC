@@ -1,7 +1,6 @@
 package IRCTC;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -71,9 +70,6 @@ public class Trainfinding {
         driver.findElement(By.cssSelector("button[class='search_btn train_Search']")).click();
         Thread.sleep(10000);
         driver.findElement(By.xpath("//*[@id='divMain']/div/app-train-list/div[4]/div[1]/div[5]/div[1]/div[1]/app-train-avl-enq/div[1]/div[5]/div[1]/table/tr/td[1]/div/div[2]/span")).click();
-        System.out.println("hello");
-        System.out.println("hello");
-        System.out.println("hello");
 
     }
 }
